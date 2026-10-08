@@ -81,7 +81,7 @@ void clearWiFiCredentials();
 //---------------------------------------------------------------------------
 // void loadStationConfiguration()
 //---------------------------------------------------------------------------
-// Description     | Save Station configuration
+// Description     | Load Station configuration
 // Parameter       | String server: Address of Radio Station
 // Return value    | void
 //---------------------------------------------------------------------------
@@ -89,9 +89,9 @@ void loadStationConfiguration(String &server);
 
 
 //---------------------------------------------------------------------------
-// void saveStationConfiguratio n(const String &server)
+// void saveStationConfiguration(const String &server)
 //---------------------------------------------------------------------------
-// Description     | Save Station Configuration from NVS // ------------------------------------------------------------
+// Description     | Save Station Configuration to NVS
 // Parameter       | String server: Address of Radio Station
 // Return value    | The void saveStationConfiguratio result of the operation.
 //---------------------------------------------------------------------------

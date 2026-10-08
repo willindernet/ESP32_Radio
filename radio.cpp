@@ -2,7 +2,6 @@
 #include "config.h"
 
 #include <WiFi.h>
-#include <WiFiUdp.h>
 #include <ESPmDNS.h>
 #include <Preferences.h>
 
