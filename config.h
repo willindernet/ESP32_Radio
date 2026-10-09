@@ -35,7 +35,7 @@ static const char* const DEVICE_HOSTNAME = "ESP32-Radio";
 static const unsigned long WIFI_CONNECT_TIMEOUT = 15;       // seconds
 
 // URL radio station - Factory Settings
-static const char* const WEB_RADIO_URL = "https://streams.fluxfm.de/live/mp3-320/streams.fluxfm.de";
+static const char* const WEB_RADIO_URL = "http://channels.fluxfm.de/FluxFM/externalembedflxhp/stream.mp3";
 
 // ============================================================
 // End of configuration

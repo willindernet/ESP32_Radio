@@ -40,8 +40,8 @@ Adjust these pins in `config.h` to match your hardware. GPIO 2 is a strapping pi
 
 ## Software Requirements
 
-* [Arduino IDE](https://www.arduino.cc/en/software) or another compatible ESP32 development environment
-* [ESP32-audioI2S library](https://github.com/schreibfaul1/ESP32-audioI2S)
+* [Arduino IDE](https://www.arduino.cc/en/software) Board "esp32 by Espressif Systems" version 3.2.1
+* [ESP32-audioI2S library](https://github.com/schreibfaul1/ESP32-audioI2S) version 3.2.1
 
 The project also uses ESP32 Arduino libraries for Wi-Fi, HTTP server functionality, mDNS, and NVS preferences.
 
