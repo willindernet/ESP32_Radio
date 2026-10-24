@@ -19,10 +19,10 @@
 #endif
 
 // Digital I/O used
-#define I2S_DOUT      25  // DIN connection
-#define I2S_BCLK      33  // Bit clock
-#define I2S_LRC       26  // Left Right Clock
-#define MUTE_PIN      32  // Output Pin for Muting
+#define I2S_LRC       8   // Left Right Clock
+#define I2S_DOUT      18  // DIN connection
+#define I2S_BCLK      17  // Bit clock
+#define MUTE_PIN      16   // Output Pin for Muting
 #define WIFI_PIN      2   // blink 100/100 ms in AP mode, on when connected
 
 // Access Point for WIFI-Configuration
